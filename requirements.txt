@@ -1,0 +1,23 @@
+# ---Core Framework & Validation ---
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# --- Vector Database & Orchestration ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-chroma>=0.1.4
+chromadb>=0.5.0
+langchain-huggingface>=0.1.0
+sentence-transformers>=2.2.0
+
+# --- Document Loaders & Processing ---
+pypdf>=4.0.0
+tiktoken>=0.7.0
+
+# --- Developer & Quality Tools ---
+pytest>=8.0.0
+pytest-cov>=4.1.0
+rich>=13.7.0
